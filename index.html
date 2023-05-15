@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <div class="app">
+        <h1>Converter Currency</h1>
+        <div class="parent_flex">
+          <div class="item">
+           <p class="p">Курс USD</p>
+           <div class="valute valutes1" data-value="USD">--.--</div>
+          </div>
+          <div class="item">
+            <p class="p">Курс EUR</p>
+            <div class=" valute valutes2" data-value="EUR">--.--</div>
+          </div>
+          <div class="item">
+            <p class="p">Курс TJS</p>
+            <div class="valute valutes3" data-value="TJS">--.--</div>
+          </div>
+        </div>
+        <div class="inputs">
+            <div class="block1">
+                <p style="font-size:18px">Отдано:</p>
+                <select name="" id="select1" class="select">
+                    <option value="RUB">RUB</option>
+                    <option value="USDT">USD</option>
+                    <option value="TJS">TJS</option>
+                </select>
+                <input type="number" name="" id="input" class="inp">
+
+            </div>
+            <div class="block2">
+                <p style="font-size:18px">Получано:</p>
+                <select name="" id="select2" class="select">
+                    <option value="RUB">RUB</option>
+                    <option value="USD" selected>USD</option>
+                    <option value="TJS">TJS</option>
+                </select>
+               <input type="number" class="inp" id="resalt">
+            </div>
+        </div>
+
+    </div>
+   
+    <script src="./main.js"></script>
+</body>
+</html>
